@@ -88,6 +88,12 @@ main {
   border: 1px solid white;
 }
 
+#home-page #home-page-div .header .log_button {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 #home-page #home-page-div .header h1 {
   color: #b1b1b1;
   text-align: center;
