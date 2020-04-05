@@ -51,7 +51,7 @@
        <li>
         
         <input type="radio" id="state-of-mind3" name='state-of-mind' value="mehh">
-        <label for="state-of-mind3">Great!</label>
+        <label for="state-of-mind3">Greater!</label>
       </li>
      
       <li>
@@ -70,15 +70,16 @@
     </ul>
   </form>
 </div>
- <script src="validation.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js"></script> 
+<script src="validation.js"></script>
 <script>
 
     // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function() {
-      'use strict';
+    $(document).ready( function(ev)
+    {
       initValidation("#myform");
-     
-    })();
+    })
 </script>
 
 
